@@ -1,0 +1,86 @@
+.main {
+  /* display: flex;
+  height: 100%;
+  flex-wrap: wrap; */
+  height: 100%;
+  /* margin: 40px 60px; */
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5rem 0;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.containers {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.container {
+  /* border: 1px solid black; */
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background-color: #f9fafb;
+}
+.container_heading {
+  display: flex;
+  justify-content: space-between;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin-top: 1rem;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+button {
+  border: none;
+  background-color: white;
+  border-radius: 0.65rem;
+  /* border: 1px solid black; */
+  padding: 5px 7px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.add_item_button {
+  width: 100%;
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: center;
+}
+.DialogBox {
+  min-width: 400px;
+  height: 10vh;
+  padding: 5vmax 4vmax;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+.DialogBox button {
+  background-color: black;
+  color: white;
+  font-size: large;
+  padding: 1rem 2rem;
+}
+h1,
+p {
+  font-family: "Roboto", sans-serif;
+}
